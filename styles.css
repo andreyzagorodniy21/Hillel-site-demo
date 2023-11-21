@@ -1,0 +1,147 @@
+body {
+    background:  #EFEFF2;
+    margin: 0;
+    color: #19191C;
+    font: 400 18px/28px Inter, sans-serif;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0 0;
+}
+.header__box {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px
+    
+}
+.btn-box {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.logo__header {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29.05px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #19191C;
+    text-decoration: none;
+}
+.link {
+    color: #19191C;
+    text-decoration: none;
+}
+.header__link {
+    color: #19191C;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.78px;
+    text-decoration: none;
+}
+.header__btn {
+    background: #19191C;
+    color: #EFEFF2;
+    padding: 12px 37px;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.78px;
+}
+.offer {
+    display: flex;
+    justify-content: space-between;
+    background: url(../img/businesswoman_offer.png) 100% 100% no-repeat;
+}
+.offer__holder {
+    width: 648px;
+    background-image: url(../img/ellipse_offer.png) ;
+}
+.offer__title {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70.19px;
+}
+
+.offer__list {
+    align-self: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    position: relative;
+}
+.offer__item {
+    position: absolute;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+
+}
+.offer__invision {
+    top: 80px;
+    right: 20px;
+}
+.offer__protopie {
+    top: 20px;
+    right: 250px;
+}
+.offer__miro {
+    top: 80px;
+    right: 540px;
+}
+.offer__photoshop {
+    top: 200px;
+    right: 570px;
+}
+.offer__figma {
+    top: 320px;
+    right: 670px;
+}
+.offer__illustrator {
+    top: 420px;
+    right: 700px;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer__info {
+    color: #EFEFF2;
+    text-decoration: none;
+}
+
+
+.learn-container {
+    display:
+}
